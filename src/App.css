@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.card{
+  display: inline-block;
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
+  padding-block: 5px;
+  border: 10px solid rgb(49, 13, 2);
+  background-color: #75431a;
+  border-radius: 20px;
+  font-size: larger;
+  color: rgb(3, 18, 31);
+}
+.Input{
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  border: 5px solid rgb(241, 241, 10);
+}
+Button{
+  width: 200px;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #75431a;
+}
+.CardList{ 
+  display: block;
+  width: 1000px;
+  background-color: aliceblue;
+  border: 10px solid saddlebrown;
+  margin: auto;
+}
+.Bored{
+  font-family: cursive, sans-serif;
+      background-color: #9c7c4c;
+      color: white;
+      padding: 10px;
+      width: 800px;
+      margin:auto;
+      font-size: x-large;
+      border-radius: 4px;
+      box-shadow: 2px 2px 20px 23px #7fecad;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
